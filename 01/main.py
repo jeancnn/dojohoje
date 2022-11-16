@@ -1,5 +1,4 @@
 from pessoafisica import Pessoafisica
-from pessoaJuridica import PessoaJuridica
 
 pessoafisica = Pessoafisica(input('Informe se nome:> '), input('Informe seu CPF:> '), float(input('Informe seu saldo inicial:> ')))
 
