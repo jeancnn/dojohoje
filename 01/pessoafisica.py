@@ -5,10 +5,12 @@ class Pessoafisica(Conta):
     __segundo_titular = ""
 
     def __init__(self, titular, cpf, saldo_inicial):
+        print('Passando pelo construtor pessoa física.')
         super().__init__("500", "pessoafisica")
         self.__titular = titular
         self.__cpf = cpf
         self.__saldo_inicial = saldo_inicial
+        
 
     @property 
     def segundo_titular(self):

@@ -9,6 +9,8 @@ class PessoaJuridica(Conta):
         self.__titular = titular
         self.__cnpj = cnpj
         self.__saldo_inicial = saldo_inicial
+        print('Passando pelo construtor pessoa jurídica.')
+
     
     @property 
     def segundo_titular(self):
